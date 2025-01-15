@@ -1,6 +1,13 @@
 [package]
-name = "ggg"
+name = "git-got-good"
 version = "0.1.0"
+description = "A CLI for scaffolding new projects with git repos, like degit."
 edition = "2021"
+license = "MIT"
+authors = ["Austin Poor <code@austinpoor.com"]
+
+[[bin]]
+name = "ggg"
+path = "src/main.rs"
 
 [dependencies]
