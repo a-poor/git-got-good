@@ -5,6 +5,9 @@ description = "A CLI for scaffolding new projects with git repos, like degit."
 edition = "2021"
 license = "MIT"
 authors = ["Austin Poor <code@austinpoor.com"]
+# documentation = ""
+homepage = "https://github.com/a-poor/git-got-good"
+repository = "https://github.com/a-poor/git-got-good"
 
 [[bin]]
 name = "ggg"
